@@ -1027,9 +1027,38 @@
       </p>
     </div>
 
-    <div class="projects-grid">
+    <div class="projects-grid"> 
+      <!-- Project 1: Clinical RAG Assistant -->
+<article class="project-card">
+  <div class="project-tagline">Clinical AI + RAG Pipelines</div>
+  <h3>Healthcare-Grade Clinical Document Intelligence (RAG + LLM)</h3>
 
-      <!-- Project 1: Multi-Modal Cancer Detection -->
+  <p class="project-metric">Summarizes clinical notes, flags safety risks, and provides grounded differential diagnoses.</p>
+
+  <p class="project-desc">
+    Built an end-to-end Retrieval-Augmented Generation (RAG) system for clinical document analysis.
+    The assistant ingests de-identified clinical notes, builds a FAISS vector index, and generates 
+    evidence-backed summaries, safety risk signals, and differential diagnoses using LLMs grounded 
+    in retrieved medical context. Includes a FastAPI backend and a React-based clinician workflow UI.
+  </p>
+
+  <div class="project-meta">
+    <span>FastAPI</span>
+    <span>Python</span>
+    <span>LangChain</span>
+    <span>OpenAI</span>
+    <span>FAISS</span>
+    <span>React</span>
+    <span>Docker</span>
+  </div>
+
+  <a class="btn-secondary" href="https://github.com/DeekshithaKotte/clinic_rag" target="_blank" style="margin-top:10px;">
+    <span>View on GitHub</span> ↗
+  </a>
+</article>
+
+
+      <!-- Project 2: Multi-Modal Cancer Detection -->
       <article class="project-card">
         <div class="project-tagline">Computer Vision + Multi-Modal Models</div>
         <h3>AI-Powered Multi-Modal Cancer Detection</h3>
@@ -1051,7 +1080,7 @@
         </a>
       </article>
 
-      <!-- Project 2: MRI Tumor Detector -->
+      <!-- Project 3: MRI Tumor Detector -->
       <article class="project-card">
         <div class="project-tagline">Medical Imaging · CNNs · AI Diagnostics</div>
         <h3>MRI Tumor Detector</h3>
@@ -1206,3 +1235,4 @@
   </script>
 </body>
 </html>
+
